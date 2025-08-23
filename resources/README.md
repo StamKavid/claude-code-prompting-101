@@ -99,18 +99,6 @@ Additional resources, templates, and tools for mastering Claude prompt engineeri
 - [Azure Functions](./integrations/azure-functions/)
 - [Kubernetes Deployment](./integrations/kubernetes/)
 
-## 📝 Citation
-
-If you use this educational material in your work, please cite:
-
-```bibtex
-@misc{claude_prompting_101,
-  title={Claude Code Prompting 101: Educational Repository},
-  author={Based on Anthropic Applied AI Team Tutorial},
-  year={2024},
-  url={https://github.com/your-repo/claude-prompting-101}
-}
-```
 
 ## 📄 License
 
