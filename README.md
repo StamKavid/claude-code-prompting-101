@@ -1,4 +1,4 @@
-# Claude Code Prompting 101 📚
+# Claude Code Prompting 101 
 
 An educational repository based on Anthropic's Claude Code Prompting 101 tutorial, featuring comprehensive theory, practical examples, and visual guides for mastering prompt engineering with Claude.
 
