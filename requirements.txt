@@ -1,0 +1,24 @@
+# Claude Code Prompting 101 - Dependencies
+# Core dependencies for working with Claude API and examples
+
+# Claude API client
+anthropic>=0.25.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Image processing for visual examples
+Pillow>=10.0.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Utility libraries
+requests>=2.31.0
+typing-extensions>=4.7.0
+
+# Optional: For enhanced code examples
+jupyter>=1.0.0
+matplotlib>=3.7.0
+pandas>=2.0.0

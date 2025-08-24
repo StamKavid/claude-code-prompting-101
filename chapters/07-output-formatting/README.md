@@ -1,4 +1,4 @@
-# Chapter 7: Output Formatting and Guidelines 🎨
+# Chapter 7: Output Formatting and Guidelines
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - Pre-filled responses and output control techniques
 - Final guidelines and reminders for production-ready systems
 
-## 📚 Theory
+## Theory
 
 ### The Production Reality
 
@@ -31,7 +31,7 @@ XML tags provide an excellent solution because they:
 - **Maintain consistency** across different requests
 - **Support debugging** with complete audit trails
 
-## 💻 Code Examples
+## Code Examples
 
 ### Version 5: Production-Ready Output Formatting
 
@@ -322,7 +322,7 @@ parsed_result = parser.parse_xml_output(claude_response)
 db_record = parser.extract_for_database(parsed_result)
 ```
 
-## 📊 Mermaid Diagram: Output Formatting Architecture
+## Mermaid Diagram: Output Formatting Architecture
 
 ```mermaid
 flowchart TD
@@ -370,7 +370,7 @@ flowchart TD
     style BB fill:#ffcdd2
 ```
 
-## 🎯 Output Format Best Practices
+## Output Format Best Practices
 
 ### 1. **Complete Structure Always**
 ```python
@@ -423,7 +423,7 @@ automation_unfriendly = """
 """
 ```
 
-## 🔍 Version 5 Production Results
+## Version 5 Production Results
 
 ### Integration Benefits
 
@@ -473,7 +473,7 @@ def production_workflow_example():
     return workflow
 ```
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Output Structure Design
 Design output formats for these scenarios:
@@ -501,7 +501,7 @@ Design pre-fill approaches for:
 - Skipping reasoning and going straight to verdict
 - Ensuring specific confidence level formatting
 
-## 📈 Advanced Output Techniques
+## Advanced Output Techniques
 
 ### 1. **Conditional Output Sections**
 ```python
@@ -559,7 +559,7 @@ multi_format = """
 """
 ```
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 8: Advanced Techniques](../08-advanced-techniques/), we'll explore:
 - Extended thinking and reasoning capabilities
@@ -567,7 +567,7 @@ In [Chapter 8: Advanced Techniques](../08-advanced-techniques/), we'll explore:
 - Real-world implementation considerations
 - Future-proofing your prompt engineering approach
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Output formatting serves multiple stakeholders** - humans, systems, databases, APIs
 2. **XML tags provide excellent structure** - readable and parseable

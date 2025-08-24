@@ -1,4 +1,4 @@
-# Chapter 4: Background Data and Context 📋
+# Chapter 4: Background Data and Context
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - System prompt optimization strategies
 - Version 3 breakthrough to confident fault determination
 
-## 📚 Theory
+## Theory
 
 ### The Static vs. Dynamic Information Principle
 
@@ -54,7 +54,7 @@ Benefits of XML tags:
 - **Structured thinking** - Helps Claude organize its analysis
 - **Debugging friendly** - Easy to see what information was provided
 
-## 💻 Code Examples
+## Code Examples
 
 ### Version 3: Adding Comprehensive Background Context
 
@@ -223,7 +223,7 @@ def build_cacheable_system_prompt():
     }
 ```
 
-## 📊 Mermaid Diagram: Background Context Architecture
+## Mermaid Diagram: Background Context Architecture
 
 ```mermaid
 flowchart TD
@@ -268,7 +268,7 @@ flowchart TD
     style U fill:#ffecb3
 ```
 
-## 🎯 Background Context Best Practices
+## Background Context Best Practices
 
 ### 1. **Comprehensive Form Knowledge**
 ```python
@@ -313,7 +313,7 @@ Swedish Traffic Law Key Principles:
 no_context = "Determine who was at fault"
 ```
 
-## 🔍 Version 3 Breakthrough Results
+## Version 3 Breakthrough Results
 
 ### What Changed?
 | Aspect | Version 2 | Version 3 |
@@ -354,7 +354,7 @@ is a normal driving action. Confidence: 95%
 """
 ```
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Static vs. Dynamic Classification
 Classify these information types as static (S) or dynamic (D):
@@ -379,7 +379,7 @@ For a medical diagnosis use case, list 5 types of static background information 
 ### Exercise 4: Prompt Caching Strategy
 Design a caching strategy for a legal document review system. What stays static? What changes?
 
-## 📈 Performance Impact
+## Performance Impact
 
 ### Processing Time Reduction
 - **Version 2**: Claude spends time figuring out what each checkbox means
@@ -394,7 +394,7 @@ Design a caching strategy for a legal document review system. What stays static?
 - **Different analysts**: Consistent interpretation framework
 - **Automated systems**: Predictable output structure
 
-## 📋 Background Context Checklist
+## Background Context Checklist
 
 - [ ] **Form structure** completely defined
 - [ ] **Field meanings** explicitly specified  
@@ -405,7 +405,7 @@ Design a caching strategy for a legal document review system. What stays static?
 - [ ] **Prompt caching** considerations addressed
 - [ ] **Evidence requirements** specified
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 5: Examples and Few-Shot Learning](../05-examples-and-few-shot/), we'll explore:
 - The power of examples in steering Claude's behavior
@@ -413,7 +413,7 @@ In [Chapter 5: Examples and Few-Shot Learning](../05-examples-and-few-shot/), we
 - Building example libraries for edge cases
 - When and how to use few-shot learning effectively
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Static information belongs in system prompts** - it's cacheable and consistent
 2. **XML tags provide excellent organization** - Claude loves structure

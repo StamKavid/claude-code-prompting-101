@@ -1,4 +1,4 @@
-# Chapter 3: Task and Tone Context 🎭
+# Chapter 3: Task and Tone Context
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - Building confidence and preventing hallucinations
 - Version 2 improvements to our car insurance example
 
-## 📚 Theory
+## Theory
 
 ### The Critical Foundation: Task Context
 
@@ -36,7 +36,7 @@ Tone context defines **how** Claude should approach the task:
 3. **Be Explicit About Uncertainty**: If something is unclear, say so
 4. **Reference Evidence**: Always tie conclusions back to specific data points
 
-## 💻 Code Examples
+## Code Examples
 
 ### Version 2: Adding Task and Tone Context
 
@@ -133,7 +133,7 @@ selections. The sketch is also unclear in this area.</reasoning>
 """
 ```
 
-## 📊 Mermaid Diagram: Task and Tone Context Framework
+## Mermaid Diagram: Task and Tone Context Framework
 
 ```mermaid
 flowchart TD
@@ -176,7 +176,7 @@ flowchart TD
     style U fill:#c8e6c9
 ```
 
-## 🎯 Task Context Best Practices
+## Task Context Best Practices
 
 ### 1. **Be Specific About the Role**
 ```python
@@ -207,7 +207,7 @@ flowchart TD
  3. Determine fault only when highly confident"
 ```
 
-## 🎭 Tone Context Best Practices
+## Tone Context Best Practices
 
 ### 1. **Confidence Calibration**
 ```python
@@ -240,7 +240,7 @@ evidence_based_language = [
 ]
 ```
 
-## 🔍 Version 2 Results Analysis
+## Version 2 Results Analysis
 
 ### What Changed?
 | Aspect | Version 1 | Version 2 |
@@ -257,7 +257,7 @@ Even with Version 2 improvements, Claude still says:
 
 This is **actually good behavior** - Claude correctly identifies that it needs more context about the form structure itself.
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Role Definition Practice
 Write three different role definitions for these scenarios:
@@ -285,7 +285,7 @@ Write error handling instructions for when:
 2. The form appears to be in a different language than expected
 3. The data contradicts itself
 
-## 📈 Impact Measurement
+## Impact Measurement
 
 ### Before vs. After Task & Tone Context
 
@@ -311,7 +311,7 @@ Write error handling instructions for when:
 - **Evidence Usage**: None → Some
 - **Uncertainty Handling**: Poor → Good
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 4: Background Data and Context](../04-background-context/), we'll address the remaining issues by:
 - Providing detailed form specifications to Claude
@@ -319,7 +319,7 @@ In [Chapter 4: Background Data and Context](../04-background-context/), we'll ad
 - Optimizing the system prompt with static information
 - Moving from "some confidence" to "high confidence"
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Task context prevents fundamental misunderstandings** - domain specification is critical
 2. **Tone context shapes behavior** - confidence requirements prevent hallucinations  

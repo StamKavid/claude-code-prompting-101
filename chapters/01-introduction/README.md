@@ -1,4 +1,4 @@
-# Chapter 1: Introduction to Prompt Engineering 🎯
+# Chapter 1: Introduction to Prompt Engineering
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - Core principles for communicating effectively with Claude
 - How to set up a structured approach to prompt engineering
 
-## 📚 Theory
+## Theory
 
 ### What is Prompt Engineering?
 
@@ -37,7 +37,7 @@ Throughout this tutorial, we'll work with a practical example:
 - **Data**: Swedish accident report forms + hand-drawn sketches
 - **Goal**: Automated, confident fault determination
 
-## 💻 Code Examples
+## Code Examples
 
 ### Version 1: Basic Prompt (The Problem)
 
@@ -73,7 +73,7 @@ claude_config = {
 # - System prompt: Where we'll put our structured instructions
 ```
 
-## 📊 Mermaid Diagram: Prompt Engineering Process
+## Mermaid Diagram: Prompt Engineering Process
 
 ```mermaid
 flowchart TD
@@ -96,7 +96,7 @@ flowchart TD
     style H fill:#ffecb3
 ```
 
-## 🎯 Key Principles
+## Key Principles
 
 ### 1. **Start Simple, Build Complexity**
 Begin with a basic prompt and systematically add improvements.
@@ -110,7 +110,7 @@ Instruct Claude to only provide answers when confident, avoiding hallucinations.
 ### 4. **Empirical Approach**
 Test, measure, iterate - treat it as a science, not art.
 
-## 🔍 The Problem Demonstration
+## The Problem Demonstration
 
 **What went wrong in Version 1?**
 
@@ -121,7 +121,7 @@ Test, measure, iterate - treat it as a science, not art.
 | Missing Context | No background about Swedish forms | Inefficient processing |
 | Vague Instructions | "Determine what happened" too broad | Unfocused output |
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Identify the Problems
 Given this basic prompt, list 5 specific improvements you would make:
@@ -135,7 +135,7 @@ Rewrite the basic prompt to include proper domain context for a car insurance cl
 ### Exercise 3: Confidence Instructions
 Add instructions that ensure Claude only responds when confident about its analysis.
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 2: Prompt Structure Fundamentals](../02-prompt-structure/), we'll learn:
 - The 10-point prompt structure framework
@@ -143,7 +143,7 @@ In [Chapter 2: Prompt Structure Fundamentals](../02-prompt-structure/), we'll le
 - Essential components of effective prompts
 - Moving from basic to structured approaches
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Prompt engineering is iterative** - expect multiple refinements
 2. **Context is king** - always provide clear domain information  

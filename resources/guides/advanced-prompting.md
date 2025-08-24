@@ -1,4 +1,4 @@
-# Advanced Prompt Engineering Guide 🚀
+# Advanced Prompt Engineering Guide
 
 This guide covers advanced prompt engineering techniques for production-ready Claude implementations, based on insights from the Claude Code Prompting 101 tutorial.
 

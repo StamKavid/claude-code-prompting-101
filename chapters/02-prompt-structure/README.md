@@ -1,4 +1,4 @@
-# Chapter 2: Prompt Structure Fundamentals 🏗️
+# Chapter 2: Prompt Structure Fundamentals️
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - The difference between conversational and API-style prompts
 - Best practices for structuring prompts
 
-## 📚 Theory
+## Theory
 
 ### The Structured Approach vs. Conversational
 
@@ -17,7 +17,7 @@ Most people are familiar with **conversational interactions** - going back and f
 
 According to Anthropic's best practices, an effective prompt should include these components:
 
-#### 1. **Task Description** 🎯
+#### 1. **Task Description**
 - **What**: Claude's role and primary objective
 - **Why**: The purpose and context of the task
 - **When**: Any timing or urgency considerations
@@ -27,12 +27,12 @@ According to Anthropic's best practices, an effective prompt should include thes
 - Images, documents, forms, or text to analyze
 - The "raw material" Claude works with
 
-#### 3. **Detailed Instructions** 📋
+#### 3. **Detailed Instructions**
 - Step-by-step guidance for analysis
 - Specific methodology to follow
 - Order of operations (very important!)
 
-#### 4. **Examples** 💡
+#### 4. **Examples**
 - Few-shot learning samples
 - Visual examples when relevant
 - Expected input/output patterns
@@ -57,7 +57,7 @@ According to Anthropic's best practices, an effective prompt should include thes
 10. Final Task Confirmation
 ```
 
-## 💻 Code Examples
+## Code Examples
 
 ### API-Style Prompt Template
 
@@ -172,7 +172,7 @@ guidelines = [
 ]
 ```
 
-## 📊 Mermaid Diagram: Prompt Structure Framework
+## Mermaid Diagram: Prompt Structure Framework
 
 ```mermaid
 flowchart TD
@@ -211,7 +211,7 @@ flowchart TD
     style T fill:#fff3e0
 ```
 
-## 🎯 Key Principles
+## Key Principles
 
 ### 1. **Separation of Concerns**
 - **System Prompt**: Static information, context, instructions
@@ -238,7 +238,7 @@ Use XML tags or markdown to separate different sections:
 ### 4. **Progressive Specification**
 Start broad (context) and get specific (instructions and format).
 
-## 🔍 Structure Benefits
+## Structure Benefits
 
 | Component | Purpose | Benefit |
 |-----------|---------|---------|
@@ -249,7 +249,7 @@ Start broad (context) and get specific (instructions and format).
 | Output Format | Structures responses | Enables automation |
 | Guidelines | Reinforces key points | Prevents errors |
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Component Identification
 Given this poorly structured prompt, identify which of the 10 components are missing:
@@ -268,7 +268,7 @@ Take the following jumbled prompt elements and organize them according to the 10
 ### Exercise 3: Build Your Own Structure
 Create a structured prompt for a different domain (e.g., medical diagnosis, legal document review, or technical troubleshooting).
 
-## 📈 Performance Comparison
+## Performance Comparison
 
 ### Before: Unstructured Approach
 ```
@@ -288,7 +288,7 @@ Create a structured prompt for a different domain (e.g., medical diagnosis, lega
 ✅ Production-ready
 ```
 
-## 📋 Checklist: Well-Structured Prompt
+## Checklist: Well-Structured Prompt
 
 - [ ] **Task context** clearly defines Claude's role
 - [ ] **Background information** provides necessary domain knowledge
@@ -299,7 +299,7 @@ Create a structured prompt for a different domain (e.g., medical diagnosis, lega
 - [ ] **XML tags** or clear delimiters separate sections
 - [ ] **Logical flow** from context to execution
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 3: Task and Tone Context](../03-task-and-tone/), we'll dive deep into:
 - Setting clear task descriptions that prevent misunderstandings
@@ -307,7 +307,7 @@ In [Chapter 3: Task and Tone Context](../03-task-and-tone/), we'll dive deep int
 - Building the foundation for factual, reliable outputs
 - Version 2 improvements to our car insurance example
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Structure enables success** - organized prompts get better results
 2. **Separate system from user concerns** - static vs. dynamic information

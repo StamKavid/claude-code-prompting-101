@@ -194,7 +194,7 @@ mindmap
         Continuous Optimization
 ```
 
-## 🎯 Learning Path Visualization
+## Learning Path Visualization
 
 ```mermaid
 flowchart LR
@@ -210,7 +210,7 @@ flowchart LR
     style H fill:#c8e6c9
 ```
 
-## 📊 Confidence Progression
+## Confidence Progression
 
 ```mermaid
 xychart-beta
@@ -220,7 +220,7 @@ xychart-beta
     bar [0, 30, 50, 95, 95, 98, 98, 99]
 ```
 
-## 🔄 Iterative Improvement Cycle
+## Iterative Improvement Cycle
 
 ```mermaid
 flowchart TD

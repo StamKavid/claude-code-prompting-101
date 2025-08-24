@@ -1,4 +1,4 @@
-# Code Examples Repository 💻
+# Code Examples Repository
 
 This directory contains practical code examples from the Claude Code Prompting 101 tutorial.
 
@@ -15,7 +15,7 @@ code-examples/
 └── advanced-techniques/    # Chapter 8: Caching, thinking, optimization
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 Each directory contains:
 - **README.md**: Explanation and theory
@@ -23,14 +23,14 @@ Each directory contains:
 - **templates/**: Reusable prompt templates
 - **tests/**: Validation and testing code
 
-## 🛠️ Usage
+## ️ Usage
 
 1. Choose the relevant chapter directory
 2. Read the README for context
 3. Adapt the examples to your use case
 4. Test with your own data
 
-## 📋 Prerequisites
+## Prerequisites
 
 ```bash
 pip install anthropic
@@ -38,7 +38,7 @@ pip install python-dotenv
 pip install xmltodict  # for XML parsing examples
 ```
 
-## 🔑 Environment Setup
+## Environment Setup
 
 Create a `.env` file:
 ```

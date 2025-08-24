@@ -1,4 +1,4 @@
-# Chapter 6: Detailed Instructions and Order 📋
+# Chapter 6: Detailed Instructions and Order
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - Techniques for preventing hallucinations through structured thinking
 - How detailed instructions transform Claude's analytical approach
 
-## 📚 Theory
+## Theory
 
 ### The Power of Step-by-Step Instructions
 
@@ -34,7 +34,7 @@ Detailed instructions serve multiple purposes:
 - **Create checkpoints** for validation and evidence gathering
 - **Force explicit reasoning** that can be reviewed and debugged
 
-## 💻 Code Examples
+## Code Examples
 
 ### Version 4: Comprehensive Step-by-Step Instructions
 
@@ -268,7 +268,7 @@ def show_order_importance():
     return {"incorrect": incorrect_order, "correct": correct_order}
 ```
 
-## 📊 Mermaid Diagram: Systematic Analysis Flow
+## Mermaid Diagram: Systematic Analysis Flow
 
 ```mermaid
 flowchart TD
@@ -318,7 +318,7 @@ flowchart TD
     style Y fill:#4caf50,color:#fff
 ```
 
-## 🎯 Key Instruction Principles
+## Key Instruction Principles
 
 ### 1. **Explicit Sequencing**
 ```python
@@ -368,7 +368,7 @@ CHECKPOINT: Use form context to guide sketch interpretation
 """
 ```
 
-## 🔍 Version 4 Results Analysis
+## Version 4 Results Analysis
 
 ### Behavioral Changes
 
@@ -411,7 +411,7 @@ Vehicle B: Clear violation - failure to yield right of way
 """
 ```
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Instruction Ordering
 Reorder these mixed-up analysis steps into the correct sequence:
@@ -431,7 +431,7 @@ Write an example showing what goes wrong when Claude analyzes a complex document
 ### Exercise 4: Instruction Specificity
 Take this vague instruction: "Look at the data and tell me what you think" and convert it into 5 specific, ordered steps.
 
-## 📈 Advanced Instruction Techniques
+## Advanced Instruction Techniques
 
 ### 1. **Conditional Logic in Instructions**
 ```python
@@ -475,7 +475,7 @@ Common mistakes to avoid:
 """
 ```
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 7: Output Formatting and Guidelines](../07-output-formatting/), we'll explore:
 - Structured output with XML tags for automation
@@ -483,7 +483,7 @@ In [Chapter 7: Output Formatting and Guidelines](../07-output-formatting/), we'l
 - Pre-filled responses and JSON output options
 - Final guidelines and reminders for production systems
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Order matters critically** - build context before interpretation
 2. **Step-by-step instructions prevent rushed analysis** - systematic beats intuitive

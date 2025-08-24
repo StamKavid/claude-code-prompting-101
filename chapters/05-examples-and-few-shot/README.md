@@ -1,4 +1,4 @@
-# Chapter 5: Examples and Few-Shot Learning 🎯
+# Chapter 5: Examples and Few-Shot Learning
 
 ## Learning Objectives
 By the end of this chapter, you will understand:
@@ -7,7 +7,7 @@ By the end of this chapter, you will understand:
 - Visual examples with base64 encoding techniques
 - Building example libraries for edge cases and difficult scenarios
 
-## 📚 Theory
+## Theory
 
 ### The Power of Examples
 
@@ -43,7 +43,7 @@ Examples enable the **empirical science of prompt engineering**:
 3. **Create feedback loops** to improve the system
 4. **Build institutional knowledge** that persists across requests
 
-## 💻 Code Examples
+## Code Examples
 
 ### Basic Few-Shot Structure
 
@@ -262,7 +262,7 @@ def build_production_example_library():
     return library
 ```
 
-## 📊 Mermaid Diagram: Few-Shot Learning Architecture
+## Mermaid Diagram: Few-Shot Learning Architecture
 
 ```mermaid
 flowchart TD
@@ -308,7 +308,7 @@ flowchart TD
     style V fill:#ffcdd2
 ```
 
-## 🎯 Example Selection Strategy
+## Example Selection Strategy
 
 ### 1. **Quality Over Quantity**
 ```python
@@ -355,7 +355,7 @@ reasoning_example = """
 answer_only = "Vehicle B at fault"
 ```
 
-## 🔍 Real-World Example Scenarios
+## Real-World Example Scenarios
 
 ### Scenario 1: The Light Pencil Mark Challenge
 ```python
@@ -404,7 +404,7 @@ contradiction_example = {
 }
 ```
 
-## 🛠️ Exercises
+## ️ Exercises
 
 ### Exercise 1: Example Design
 Design three examples for a medical diagnosis system that teaches Claude to:
@@ -424,7 +424,7 @@ For your current Claude application, list 5 types of failures that would benefit
 ### Exercise 4: Example Library Architecture
 Design a system for automatically collecting and organizing examples from production failures.
 
-## 📈 Implementation Guidelines
+## Implementation Guidelines
 
 ### Starting Small and Scaling
 ```python
@@ -468,7 +468,7 @@ def maintain_example_library():
     return maintenance_tasks
 ```
 
-## 📈 Next Steps
+## Next Steps
 
 In [Chapter 6: Detailed Instructions and Order](../06-detailed-instructions/), we'll explore:
 - Step-by-step reasoning guidance for Claude
@@ -476,7 +476,7 @@ In [Chapter 6: Detailed Instructions and Order](../06-detailed-instructions/), w
 - Preventing hallucinations through structured analysis
 - Version 4 with comprehensive step-by-step instructions
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Examples are powerful behavior steering mechanisms** - use them for complex scenarios
 2. **Quality beats quantity** - 2-3 excellent examples outperform 10 mediocre ones
